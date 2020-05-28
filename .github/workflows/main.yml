@@ -1,0 +1,13 @@
+name: watch
+
+on:
+  watch:
+    types: [ started ]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Run a one-line script
+      run: echo Welcome, new watcher!
