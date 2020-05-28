@@ -3,11 +3,13 @@ name: watch
 on:
   watch:
     types: [ started ]
+    branches: [ master ]
 
 jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
 
-    - name: Run a one-line script
+    - name: Greet new watcher
       run: echo Welcome, new watcher!
