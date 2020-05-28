@@ -1,15 +1,12 @@
-name: watch
+name: starring
 
 on:
   watch:
     types: [ started ]
-    branches: [ master ]
 
 jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Greet new watcher
-      run: echo Welcome, new watcher!
+    - name: Greet new star
+      run: echo Welcome, new star!
