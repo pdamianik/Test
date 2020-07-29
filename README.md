@@ -1,4 +1,4 @@
 # Test
-Testing Github stuff
+Testing Github stuff:
 
 ![](./the-magic.svg)
