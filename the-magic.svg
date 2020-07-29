@@ -24,9 +24,7 @@ h1 {
 	animation: 4s cubic-bezier(.5, 0, .5, 1.2) 1s infinite bounce;
 }
 		</style>
-		<iframe src="https://raw.githubusercontent.com/pdamianik/Test/master/the-iframe.html">
-		It aint supported
-		</iframe>
+		<h1>Hello world!</h1>
 	</div>
 	</foreignObject>
 </svg>
