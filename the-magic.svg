@@ -24,8 +24,7 @@ h1 {
 	animation: 4s cubic-bezier(.5, 0, .5, 1.2) 1s infinite bounce;
 }
 		</style>
-		<!--<h1>Hello, world</h1>-->
-		<button onclick="alert('Im watching');">Click me!</button>
+		<h1>Hello, world</h1>
 	</div>
 	</foreignObject>
 </svg>
